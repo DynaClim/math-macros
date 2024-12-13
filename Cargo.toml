@@ -1,0 +1,23 @@
+[package]
+name = "math-macros"
+version = "0.1.0"
+edition = "2024"
+authors = ["Tim"]
+description = "Tiny library providing simple macros for mathematical operations `min!`, `max!`, `abs!` etc."
+readme = "README.md"
+licence = "AGPL-3.0-or-later"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_debug_implementations = "deny"
+missing_docs = "deny"
+trivial_casts = "deny"
+trivial_numeric_casts = "deny"
+unused_extern_crates = "deny"
+unused_import_braces = "deny"
+unused_qualifications = "deny"
+unused_results = "deny"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
